@@ -29,8 +29,12 @@ This table contains descriptions for each field in the “Events” view.
 | Display Name | The event name that displays in the Mixpanel interface. |
 | Description | The information that describes the event, such as what triggers it or what properties are sent with it. |
 | Status | The event is either hidden or visible in the Mixpanel project. |
-| Volume | The total number of events that users fired in the last 30 days. |
-| Queries | The total number of API and UI queries that project members executed in the last 30 days. |
+| 30-Day Volume | The total number of events that users fired in the last 30 days. |
+| 30-Day Queries | The total number of API and UI queries that project members executed in the last 30 days. |
+| Last Queried | The last team member to query the event. |
+| First Queried | The first team member to every query the event. |
+
+
 
 ### Custom Event Definitions
 
